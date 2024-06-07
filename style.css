@@ -23,6 +23,9 @@ body {
 
 .side_bar .side_bar_logo {
     width: 10rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
 }
 
 .side_bar .side_bar_logo img {
@@ -93,4 +96,5 @@ main .img_main {
     background-image: url(imagens/platform.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 3rem;
 }
