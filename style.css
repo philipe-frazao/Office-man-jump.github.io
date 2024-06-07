@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #ADD8E6;
+    justify-content: center;
+}
+
+.side_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+    background-color: #000;
+    position: fixed;
+}
+
+.side_bar .side_bar_logo {
+    width: 10rem;
+}
+
+.side_bar .side_bar_logo img {
+    height: 3rem;
+}
+
+.side_bar .side_bar_menu {
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.side_bar .side_bar_menu ul {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.side_bar .side_bar_menu ul li {
+    display: inline-block;
+}
+
+.side_bar .side_bar_menu ul li a {
+    display: flex;
+    text-decoration: none;
+    color: lightgray;
+}
+
+.side_bar .side_bar_menu ul li a p {
+    margin: 0 1rem;
+}
+
+main {
+    max-width: 850px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+main .text_main {
+    width: 40%;
+    text-align: center;
+}
+
+main .text_main h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+main .text_main p {
+    margin-bottom: 1rem;
+}
+
+main .text_main .button_main button {
+    border: none;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 0.3rem;
+}
+
+main .text_main .button_main button a {
+    text-decoration: none;
+    padding: 1rem 1rem;
+    color: #000;
+}
+
+main .img_main {
+    background-image: url(imagens/platform.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
